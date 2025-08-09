@@ -1,0 +1,18 @@
+footer {
+  background-color: #1e1e2f; /* same as navbar */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer p {
+  margin: 0;
+  color: #d0d0d0;
+}

@@ -14,3 +14,17 @@ A simple, modern React application built using **Vite** with a sleek dark-themed
 
 ---
 
+
+🧰 Technologies Used
+- React – Component-based UI library
+- Vite – Lightning-fast build tool
+- CSS3 – For styling and layout
+---
+
+📜 License
+This project is licensed under the MIT License.
+You’re free to use, modify, and distribute this project.
+---
+
+✨ Author
+Created by Your Name 🚀

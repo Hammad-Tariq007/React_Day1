@@ -1,6 +1,58 @@
-.App{
-  text-align: center;
-  background-color: #f0f0f0;
+.App {
+  background-color: #ffffff;
   font-family: Arial, sans-serif;
   color: #333;
+}
+
+/* Modern centered card layout */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Headings */
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #1e1e2f; /* matches navbar's theme */
+}
+
+/* Paragraphs */
+.container p {
+  color: #555;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+/* Counter number */
+.container span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #61dafb; /* React blue */
+}
+
+/* Button styling */
+.container button {
+  background-color: #61dafb;
+  color: #1e1e2f;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.container button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
 }
